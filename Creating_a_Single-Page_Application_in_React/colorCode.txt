@@ -1,0 +1,137 @@
+// Gray color variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// Color variables
+$blue:    #0d6efd;
+$indigo:  #6610f2;
+$purple:  #6f42c1;
+$pink:    #d63384;
+$red:     #dc3545;
+$orange:  #fd7e14;
+$yellow:  #ffc107;
+$green:   #198754;
+$teal:    #20c997;
+$cyan:    #0dcaf0;
+
+// Color variations
+$blue-100: #bbe1fa;
+$blue-200: #9ac2f4;
+$blue-300: #7993ee;
+$blue-400: #5775e8;
+$blue-500: #3566e2;
+$blue-600: #2a52b8;
+$blue-700: #1f3f8f;
+$blue-800: #142c65;
+$blue-900: #09193b;
+
+// Similar variations for other colors...
+// (indigo, purple, pink, red, orange, yellow, green, teal, cyan)
+
+// Indigo color variations
+$indigo-100: #b39ddb;
+$indigo-200: #9575cd;
+$indigo-300: #7955ac;
+$indigo-400: #5e35b1;
+$indigo-500: #512da8;
+$indigo-600: #4527a0;
+$indigo-700: #311b92;
+$indigo-800: #1a237e;
+$indigo-900: #0d47a1;
+
+// Purple color variations
+$purple-100: #ce93d8;
+$purple-200: #ba68c8;
+$purple-300: #ab47bc;
+$purple-400: #8e24aa;
+$purple-500: #7b1fa2;
+$purple-600: #6a1b9a;
+$purple-700: #4a148c;
+$purple-800: #6a1b9a;
+$purple-900: #4a148c;
+
+// Pink color variations
+$pink-100: #f48fb1;
+$pink-200: #f06292;
+$pink-300: #ec407a;
+$pink-400: #d81b60;
+$pink-500: #c2185b;
+$pink-600: #ad1457;
+$pink-700: #880e4f;
+$pink-800: #ff80ab;
+$pink-900: #ff4081;
+
+// Red color variations
+$red-100: #ff8a80;
+$red-200: #ff5252;
+$red-300: #ff1744;
+$red-400: #d50000;
+$red-500: #c62828;
+$red-600: #b71c1c;
+$red-700: #f44336;
+$red-800: #e53935;
+$red-900: #d32f2f;
+
+// Orange color variations
+$orange-100: #ffcc80;
+$orange-200: #ffb74d;
+$orange-300: #ffa726;
+$orange-400: #fb8c00;
+$orange-500: #f57c00;
+$orange-600: #ef6c00;
+$orange-700: #e65100;
+$orange-800: #ffab40;
+$orange-900: #ff9100;
+
+// Yellow color variations
+$yellow-100: #ffd54f;
+$yellow-200: #ffca28;
+$yellow-300: #ffc107;
+$yellow-400: #ffb300;
+$yellow-500: #ffa000;
+$yellow-600: #ff8f00;
+$yellow-700: #ff6f00;
+$yellow-800: #ffab40;
+$yellow-900: #ff9100;
+
+// Green color variations
+$green-100: #c8e6c9;
+$green-200: #a5d6a7;
+$green-300: #81c784;
+$green-400: #66bb6a;
+$green-500: #4caf50;
+$green-600: #43a047;
+$green-700: #388e3c;
+$green-800: #2e7d32;
+$green-900: #1b5e20;
+
+// Teal color variations
+$teal-100: #b2dfdb;
+$teal-200: #80cbc4;
+$teal-300: #4db6ac;
+$teal-400: #26a69a;
+$teal-500: #009688;
+$teal-600: #00897b;
+$teal-700: #00796b;
+$teal-800: #004d40;
+$teal-900: #004d40;
+
+// Cyan color variations
+$cyan-100: #b2ebf2;
+$cyan-200: #80deea;
+$cyan-300: #4dd0e1;
+$cyan-400: #26c6da;
+$cyan-500: #00bcd4;
+$cyan-600: #00acc1;
+$cyan-700: #0097a7;
+$cyan-800: #006064;
+$cyan-900: #004d40;

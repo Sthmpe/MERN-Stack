@@ -10,7 +10,14 @@ function Character(character) {
 					/>
 					<div className='card-body'>
 						<h3 className='card-header'>{character.name}</h3>
-						<p>{`Origin: ${character.origin && character.origin.name}`}</p>
+						<ul>
+							<li>{`Status: ${character.status}`}</li>
+							<li>{`Species: ${character.species}`}</li>
+							<li>{`Type: ${character.type}`}</li>
+							<li>{`Gender: ${character.gender}`}</li>
+							<li>{`Origin: ${character.origin && character.origin.name}`}</li>
+						</ul>
+						
 					</div>
 				</div>
 			</div>

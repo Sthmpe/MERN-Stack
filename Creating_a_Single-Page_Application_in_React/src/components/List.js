@@ -28,6 +28,10 @@ function List() {
 						<Character
 							key = {character.id}
 							name = {character.name}
+							status = {character.status}
+							species = {character.species}
+							type = {character.type}
+							gender = {character.gender}
 							origin = {character.origin}
 							image = {character.image}
 						/>
