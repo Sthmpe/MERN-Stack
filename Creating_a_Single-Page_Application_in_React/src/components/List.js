@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Character from './Character';
+import './loadingSpinner.css';
 
 function List() {
 	const [loading, setLoading] = useState(true);
@@ -22,7 +23,7 @@ function List() {
 			<h2>Character</h2>
 			<div className='row'>
 				{loading ? (
-					<div>Loading...</div>
+					<span>Loading...</span>
 				) : (
 					characters.map((character) => (
 						<Character

@@ -7,18 +7,69 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
 	const [darkMode, setDarkMode] = useState(false);
+
 	const toggleDarkMode = () => {
 		setDarkMode(!darkMode);
 	};
 	
+	const navbarStyle = {
+		backgroundColor: '#142c65',
+		position: 'sticky',
+		top: 0,
+		zIndex: 1020,
+		border: 'none',
+	};
+
+	const navbarBrandStyle = {
+		display: 'flexbox',
+		fontSize: '1rem',
+		marginRight: '5px',
+		marginLeft: '5px',
+		marginTop: '5px',
+		marginBottom: '5px',
+	};
+
+	const containerStyle = {
+		width: '100%',
+		position: 'sticky',
+		top: 0,
+		zIndex: 1020,
+	};
+
+	const buttonStyle = {
+		marginTop: '5px',
+		marginBottom: '5px',
+		background: 'transparent',
+		border: 'none',
+	};
+	
 	return(
-		<div className={`container ${darkMode ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
-			<nav className='navbar sticky-top' style={{backgroundColor: '#142c65'}}>
-				<h1 className='navbar-brand text-light'>RICK AND MORTY</h1>
-				<button className={`btn ${darkMode ? 'btn-light' : 'btn-dark'}`} onClick={toggleDarkMode}>
-					<i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`} fontSize='1.5rem'></i>
-				</button>
-			</nav>
+		<div className={`container-xxl ${darkMode ? 'bg-dark text-light' : 'bg-light text-dark'}`} style={containerStyle}>
+			<header className={`navbar navbar-expand-xl sticky-top ${darkMode ? 'bg-dark' : 'bg-light'}`}>
+				<nav className='container-xxl text-light' style={navbarStyle}>
+					<h3 className='navbar-brand text-light' style={navbarBrandStyle}>RICK AND MORTY</h3>
+					<div className='ms-auto'>
+						<a href='https://www.github.com/Sthmpe' target='_blank' rel='noopener noreferrer'>
+							<button className='btn btn-dark' style={buttonStyle}>
+								<i className='bi bi-github' fontSize='0.75rem'></i>
+							</button>
+						</a>
+						<a href='https://www.linkedin.com/in/david-olanite-63986924a' target='_blank' rel='noopener noreferrer'>
+							<button className='btn btn-dark' style={buttonStyle}>
+								<i className='bi bi-linkedin' fontSize='0.75rem'></i>
+							</button>
+						</a>
+						<a href='https://twitter.com/This_is_David__' target='_blank' rel='noopener noreferrer'>
+							<button className='btn btn-dark' style={buttonStyle}>
+								<i className='bi bi-twitter-x' fontSize='0.75rem'></i>
+							</button>
+						</a>
+						<button className='btn btn-dark' onClick={toggleDarkMode} style={buttonStyle}>
+							<i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`} fontSize='0.75rem'></i>
+						</button>
+					</div>
+				</nav>
+			</header>
 			<List />
 		</div>
 	);
