@@ -51,21 +51,21 @@ function App() {
 					<div className='ms-auto'>
 						<a href='https://www.github.com/Sthmpe' target='_blank' rel='noopener noreferrer'>
 							<button className='btn btn-dark' style={buttonStyle}>
-								<i className='bi bi-github' fontSize='0.75rem'></i>
+								<i className='bi bi-github' style={{ fontSize: `calc(0.625rem + 1vmin)` }}></i>
 							</button>
 						</a>
 						<a href='https://www.linkedin.com/in/david-olanite-63986924a' target='_blank' rel='noopener noreferrer'>
 							<button className='btn btn-dark' style={buttonStyle}>
-								<i className='bi bi-linkedin' fontSize='0.75rem'></i>
+								<i className='bi bi-linkedin' style={{ fontSize: `calc(0.625rem + 1vmin)` }}></i>
 							</button>
 						</a>
 						<a href='https://twitter.com/This_is_David__' target='_blank' rel='noopener noreferrer'>
 							<button className='btn btn-dark' style={buttonStyle}>
-								<i className='bi bi-twitter-x' fontSize='0.75rem'></i>
+								<i className='bi bi-twitter-x' style={{ fontSize: `calc(0.625rem + 1vmin)` }}></i>
 							</button>
 						</a>
 						<button className='btn btn-dark' onClick={toggleDarkMode} style={buttonStyle}>
-							<i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`} fontSize='0.75rem'></i>
+							<i className={`bi ${darkMode ? 'bi-sun-fill' : 'bi-moon-stars-fill'}`} style={{ fontSize: `calc(0.625rem + 1vmin)` }}></i>
 						</button>
 					</div>
 				</nav>

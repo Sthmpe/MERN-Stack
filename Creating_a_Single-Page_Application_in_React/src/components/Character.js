@@ -1,7 +1,8 @@
 function Character(character) {
+	const baseFontSize = '0.625rem';
 	return (
 		<div className='col-lg-3 col-md-4 col-sm-6 col-12'>
-			<div className='card mb-3 h-20'>
+			<div className='card mb-3 h-20' style={{ fontSize: `calc(${baseFontSize} + 1vmin)` }}>
 				<div className='row g-3'>
 					<img 
 						src={character.image} 
